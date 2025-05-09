@@ -12,6 +12,8 @@
 
 </div>
 
+---
+
 ## ✨ Features
 
 - **Dark/Light Mode** - Seamless theme switching with carefully crafted color palettes
@@ -110,8 +112,8 @@ cd dashboard-ui-kit/code/css
   - Export as PDF or image formats
   - Schedule automated reports
 
+---
+
 ## 📄 License
 
 Released under the MIT License. See [LICENSE](LICENSE) for details.
-
----
