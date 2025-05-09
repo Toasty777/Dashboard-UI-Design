@@ -21,13 +21,6 @@
 - **Accessibility Focused** - WCAG compliant with keyboard navigation support
 - **Performance Optimized** - Efficient rendering and smooth animations
 
-## 🎨 Preview
-
-<div align="center">
-  <img src="https://via.placeholder.com/800x400/121212/6200EE?text=Dark+Mode" alt="Dark Mode Preview" width="49%" />
-  <img src="https://via.placeholder.com/800x400/f8f9fa/4361EE?text=Light+Mode" alt="Light Mode Preview" width="49%" />
-</div>
-
 ## 🛠️ Tech Stack
 
 - **Design Tools**
@@ -37,7 +30,6 @@
 - **Development**
   - CSS/SCSS - Variables and custom properties
   - Optional frameworks support (React, Vue, Angular)
-
 
 ## 🚀 Getting Started
 
@@ -60,6 +52,7 @@ cd dashboard-ui-kit/code/css
 
 # Dashboard UI Kit Components
 ```
+
 ## 💎 Widget Gallery
 
 - **Analytics Cards**
