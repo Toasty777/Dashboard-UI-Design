@@ -1,0 +1,68 @@
+:root {
+  /* Light Mode Variables */
+  --bg-primary: #f8f9fa;
+  --bg-secondary: #ffffff;
+  --text-primary: #212529;
+  --text-secondary: #6c757d;
+  --accent-primary: #4361ee;
+  --accent-secondary: #3f37c9;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  /* Spacing System */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+}
+
+/* Dark Mode Variables */
+[data-theme="dark"] {
+  --bg-primary: #121212;
+  --bg-secondary: #2D2D2D;
+  --text-primary: #FFFFFF;
+  --text-secondary: #A0A0A0;
+  --accent-primary: #6200EE;
+  --accent-secondary: #BB86FC;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Dashboard Layout */
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-lg);
+  padding: var(--space-lg);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Widget Card Styling */
+.widget {
+  background-color: var(--bg-secondary);
+  border-radius: 8px;
+  padding: var(--space-md);
+  box-shadow: var(--shadow);
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+/* Make widgets draggable */
+.widget-draggable {
+  cursor: move;
+}
+
+/* Widget header with actions */
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-md);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+}
